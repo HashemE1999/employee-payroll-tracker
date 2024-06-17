@@ -37,13 +37,18 @@ function displayAverageSalary(employees) {
 
   const averageSalary = totalSalary / employees.length;
 
-  console.log(`Average Salary: $${averageSalary.toFixed(2)} for ${employees.length} employees`);
+  console.log(`The average employee salary between our ${employees.length} employee(s) is $${averageSalary.toFixed(2)}`);
 
 }
 
 // Select a random employee
-const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+function getRandomEmployee(employees) {
+  const randomIndex = Math.floor(Math.random() * employees.length);
+
+  const randomEmployee = employees[randomIndex];
+
+  console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName}, our random drawing winner!`)
 }
 
 /*
