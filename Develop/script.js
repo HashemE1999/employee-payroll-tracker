@@ -4,6 +4,15 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
+
+  // For the collectEmployees function, I used a while loop to
+  // ensure that it is recalled when addEmployee is true, added
+  // prompts for the employee's first name, last name, and salary
+  // to be entered, used an isNaN function locally to verify
+  // salary inputs as numbers, and implemented the .push() method
+  // to add each newly added element via the prompts to the
+  // employees array.
+
   const employees = [];
   let addEmployee = true;
   while (addEmployee) {
@@ -29,6 +38,15 @@ const collectEmployees = function() {
 // Display the average salary
 function displayAverageSalary(employees) {
   // TODO: Calculate and display the average salary
+
+  // For the displayAverageSalary function, I used the .forEach()
+  // method to call it for each element in the employees array,
+  // as well as an equation to calculate an employee's salary
+  // using the variable totalSalary defined as 0 added to the
+  // input for the prompt. I also used an equation defining
+  // the variable averageSalary as the sum of all employees'
+  // salaries divided by the total number of employees.
+
   let totalSalary = 0;
 
   employees.forEach(employee => {
@@ -43,6 +61,13 @@ function displayAverageSalary(employees) {
 
 // Select a random employee
   // TODO: Select and display a random employee
+
+  // For the getRandomEmployees function, I used the Math.random()
+  // method to define the variable randomIndex by choosing a
+  // random employee from the previously defined array and
+  // subsequently defined the variable randomEmployee with
+  // the output for randomIndex for ease of use.
+
 function getRandomEmployee(employees) {
   const randomIndex = Math.floor(Math.random() * employees.length);
 
