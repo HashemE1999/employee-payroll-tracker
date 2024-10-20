@@ -1,17 +1,36 @@
-# Personal Comments on Module 3 Challenge: Employee Payroll Tracker Modifications
+# Employee Payroll Tracker
+  [License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Overview
+  ## Description
+  This application allows the user to input the full names and salaries of employees and generate tables to organize and showcase the data.
 
-For this challenge, I made use of the Xpert Learning Assistant to provide templates for the functions required to run the site to the specifications of the acceptance criteria. There were a few slight modifications to the code that needed to be made to accomodate for previously established variables and arrays, as well as specialized log messages to replicate those found in the mock-up.
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  
+- [License](#license)
 
-There were several methods introduced through these provided templates that were brand-new to me; it was exciting to learn and implement them!
+  - [Contributions](#contributions)
+  - [Testing](#testing)
+  - [Contacts](#contacts)
 
-## Screenshot
+  ## Installation
+  N/A
 
-Bonus points if you get the reference:
+  ## Usage
+  For employers to track their employees and their salaries.
 
-![Project Screenshot](<../Assets/Screenshot 2024-06-17 111814.png>)
+    ## License
+This project is licensed under the MIT license.
 
-## Website URL
+  ## Contributions
+  Access the open source GitHub repo at https://github.com/HashemE1999/employee-payroll-tracker
 
-https://hasheme1999.github.io/Employee_Payroll_Tracker_Mod/
+  ## Testing
+  N/A
+
+  ## Contacts
+  For questions and/or business inquiries, please reach out to me at:
+  - GitHub: [HashemE1999](https://github.com/HashemE1999)
+  - Email: [hashem_elmaghrabi@yahoo.com](mailto:hashem_elmaghrabi@yahoo.com)
